@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+nav div img, footer .logo img{
+    width: 100px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 20%;
+}
+ul li{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div{
+    color: #fff;
+    width: 50%;
+}
+main div img{
+    width: 85%;
+}
+main div h2{
+    color: #dc143c;
+}
+main div h1{
+    font-size: 60px;
+}
+main div article{
+    font-size: 15px;
+    width: 480px;
+    margin: 15px 0px;
+}
+button{
+    background-color: #dc143c;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Orbitron';
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px 50px;
+}
+.box .box-left h1{
+    font-size:45px;
+    color: #fff;
+    width: 500px;
+}
+.box-left article{
+    color: #fff;
+    width: 500px;
+    margin-top: 20px;
+}
+.quick-links{
+    color: #fff;
+    display: flex;
+}
+h5{
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 185vh;
+    margin-bottom: 30px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width:85vw;
+}
+.heading div h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.heading div p{
+    font-size: 1em;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+.cards{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 15%;
+    margin-right: 14%;
+    margin-top: 2%;
+}
+.card div img, .card{
+    width: 35vw;
+}
+.card .image {
+    padding: 12% 5%; 
+    width:35vw;
+    background-color: rgb(30, 30, 30);
+}
+.card div h2{
+    color: #fff;
+    margin: 3% 0 0 0;
+}
+div h3{
+    color: #dc143c;
+}
+
+footer{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 0;
+    margin-top: 2%;
+}
+
+footer .logo + div img{
+    width:40px;
+}
+
+footer .logo{
+    margin-left: 10%;
+}
+
+.skills{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.div{
+    background-color: rgb(30, 30, 30);
+    margin: 2%;
+    padding: 8%;
+}
+
+.div div article{
+    width: 180px;
+}
+
+
+.achivements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8%;
+    margin-left: 5%;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.card-group div{
+    background-color: rgb(30, 30, 30);
+    padding: 8% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 19vw;
+}
+
+.experience{
+    width: 20vw;
+    color: #fff;
+}
+
+.skills{
+    position: relative;
+}
+
+.skills .half-bg{
+    background-color: rgb(24, 24, 24);
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.div:nth-child(2){
+    background-color: #dc143c;
+}
+
+
+.div:nth-child(2) div h3{
+    color: #fff;
+}
+.div div h3{
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+h3 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.div div article{
+    margin-top:8%;
+}
+
+.experience h1{
+    color: #dc143c;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+div .num{
+    color: #dc143c;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 867px) {
+    nav ul{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10%;
+    }
+
+    main div article{
+        width: 200%;
+    }
+
+    main div h1{
+        width: 200%;
+        font-size: 40px;
+    }
+
+    main div img{
+        height: 50vh;
+        width: 70vw;
+        margin-bottom: 15%;
+    }
+
+    .divs{
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    .skills{
+        height: fit-content;
+        padding: 10% 0;
+    }
+
+    .achivements{
+        column-gap: 12%;
+        margin-top: 10%;
+    }
+
+    .card-group{
+        gap: 20%;
+    }
+
+    .card-group div{
+        padding: 10%;
+    }
+
+    .heading{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .card{
+        height: 35vh;
+    }
+
+    .imgVintage{
+        height: 8% !important;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+
+    .box .box-left h1{
+        font-size: 30px;
+        padding-left: 12%;
+        width: 80%;
+        text-align: center;
+    }
+
+    .box .box-left article{
+        font-size: 15px;
+        width: 90%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    
+    .projects{
+        height: 120vh;
+    }
+
+}
